@@ -30,13 +30,17 @@ else
 	echo "Merging theme into pterodactyl folder..."
 	echo "----------------------------------------"
 	sleep 4
-	cp -r Pterodactyl-Themes/v.0.7.13/obsidian-dark/public ..
-	cp -r Pterodactyl-Themes/v.0.7.13/obsidian-dark/resources ..
-
-	cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/public/ ..
-	cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources/ ..
+	cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/public ..
+	cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources ..
 
 	cd ..
+	sleep 6
+	
+	echo "-----------------------"
+	echo "Cleaning up a little..."
+	echo "-----------------------"
+	sleep 4
+	rm -r tempfolder
 	sleep 6
 	
 	echo "-----------------"
