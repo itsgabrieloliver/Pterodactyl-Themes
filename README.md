@@ -12,33 +12,11 @@ Keep in mind that the panel updates constandly and this can replace some core up
 ![alt text](https://i.gyazo.com/797a3137b89b534a5d552a52f1995dcb.png)
 ![alt text](https://i.gyazo.com/1684281fe8a62adc1b3db6cc3f3c78e2.png)
 
-#### Prerequisites
-```
-1. Git
-```
-
 #### Installing:
-1. First, ensure you are in the panel directory by running:
-```
-cd /var/www/pterodactyl
-```
+Run this command in the /var/www/pterodactyl directory:
 
-2. Clone the repository by running:
 ```
-git clone https://github.com/gabesystems/Pterodactyl-Themes.git
-```
-
-3. Now copy the required folders by running: 
-```
-cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/public .
-```
-```
-cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources .
-```
-
-4. Just to be safe clear the views.
-```
-php artisan view:clear
+curl https://raw.githubusercontent.com/gabesystems/Pterodactyl-Themes/master/v0.7.13/obsidian-dark/install.sh | sh
 ```
 
 # THERE ARE SO MANY MORE THEMES INCOMMMING! STAY TUNED!

@@ -32,6 +32,10 @@ else
 	sleep 4
 	cp -r Pterodactyl-Themes/v.0.7.13/obsidian-dark/public ..
 	cp -r Pterodactyl-Themes/v.0.7.13/obsidian-dark/resources ..
+
+	cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/public/ ..
+	cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources/ ..
+
 	cd ..
 	sleep 6
 	
