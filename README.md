@@ -37,4 +37,9 @@ and
 cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources .
 ```
 
+4. Just to be safe clear the views.
+```
+php artisan view:clear
+```
+
 THERE ARE SO MANY MORE THEMES INCOMMMING! STAY TUNED!
