@@ -13,7 +13,7 @@ Keep in mind that the panel updates constandly and this can replace some core up
 ![alt text](https://i.gyazo.com/1684281fe8a62adc1b3db6cc3f3c78e2.png)
 
 #### Installing:
-Run this command in the /var/www/pterodactyl directory.
+Run this command in the /var/www/pterodactyl directory:
 
 ```
 curl https://raw.githubusercontent.com/gabesystems/Pterodactyl-Themes/master/v0.7.13/obsidian-dark/install.sh | sh
