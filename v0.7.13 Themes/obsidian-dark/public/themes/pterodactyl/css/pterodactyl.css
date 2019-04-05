@@ -20,10 +20,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
- @import 'checkbox.css';
+@import 'checkbox.css';
 
 .login-page {
-    background: #10529f;
+    background: #111111;
 }
 
 #login-position-elements {
