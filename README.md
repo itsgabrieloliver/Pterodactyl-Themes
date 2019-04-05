@@ -32,7 +32,6 @@ git clone https://github.com/gabesystems/Pterodactyl-Themes.git
 ```
 cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/public .
 ```
-and
 ```
 cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources .
 ```
