@@ -25,6 +25,7 @@ else
 	echo "-------------------------"
 	sleep 4
 	mkdir -p tempfolder && cd tempfolder && git clone https://github.com/gabesystems/Pterodactyl-Themes.git
+	echo "DONE!"
 	sleep 6
 	
 	echo "----------------------------------------"
@@ -35,6 +36,7 @@ else
 	cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources ..
 
 	cd ..
+	echo "DONE!"
 	sleep 6
 	
 	echo "-----------------------"
@@ -42,6 +44,7 @@ else
 	echo "-----------------------"
 	sleep 4
 	rm -r tempfolder
+	echo "DONE!"
 	sleep 6
 	
 	echo "-----------------"
