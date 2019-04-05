@@ -42,4 +42,4 @@ cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources .
 php artisan view:clear
 ```
 
-THERE ARE SO MANY MORE THEMES INCOMMMING! STAY TUNED!
+# THERE ARE SO MANY MORE THEMES INCOMMMING! STAY TUNED!
