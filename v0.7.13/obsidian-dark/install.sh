@@ -17,6 +17,7 @@ else
 	apt install zip
 	apt install unzip
 	apt install git
+	apt update
 	sleep 6
 	
 	echo "-------------------------"
