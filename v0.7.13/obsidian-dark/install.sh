@@ -8,56 +8,56 @@ else
 	echo "Welcome to the installer for Codex's Pterodactyl themes!"
 	echo "Beginning installation of your new theme!"
 	echo "--------------------------------------------------------"
-	sleep 6
+	sleep 4
 	
 	echo "--------------------------"
 	echo "Installing dependencies..."
 	echo "--------------------------"
-	sleep 4
+	sleep 2
 	apt install zip
 	apt install unzip
 	apt install git
 	apt update
-	sleep 6
+	sleep 4
 	
 	echo "-------------------------"
 	echo "Downloading your theme..."
 	echo "-------------------------"
-	sleep 4
+	sleep 2
 	mkdir -p tempfolder && cd tempfolder && git clone https://github.com/gabesystems/Pterodactyl-Themes.git
 	echo "DONE!"
-	sleep 6
+	sleep 4
 	
 	echo "----------------------------------------"
 	echo "Merging theme into pterodactyl folder..."
 	echo "----------------------------------------"
-	sleep 4
+	sleep 2
 	cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/public ..
 	cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources ..
 
 	cd ..
 	echo "DONE!"
-	sleep 6
+	sleep 4
 	
 	echo "-----------------------"
 	echo "Cleaning up a little..."
 	echo "-----------------------"
-	sleep 4
+	sleep 2
 	rm -r tempfolder
 	echo "DONE!"
-	sleep 6
+	sleep 4
 	
 	echo "-----------------"
 	echo "Clearing views..."
 	echo "-----------------"
-	sleep 4
+	sleep 2
 	php artisan view:clear
-	sleep 6
+	sleep 4
 	
 	echo "---------------------------------------------------------------"
 	echo "Congratulations! You the theme has successfully been installed."
 	echo "Thank you for downloading my theme! Enjoy!"
 	echo "---------------------------------------------------------------"
-	sleep 3
+	sleep 2
 fi
 	
