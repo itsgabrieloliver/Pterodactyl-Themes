@@ -43,6 +43,9 @@
                 <p class="small login-copyright text-center">
                     Copyright &copy; 2015 - {{ date('Y') }} <a href="https://pterodactyl.io/" target="_blank">Pterodactyl Software</a>.<br />
                 </p>
+                <p class="small login-copyright text-center">
+                    <em>@lang('strings.credit'):<a href="https://github.com/gabesystems" target="_blank"> Codex</a></em>
+                </p>
             </div>
         </div>
         <div class="login-corner-info small">
