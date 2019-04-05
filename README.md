@@ -30,11 +30,15 @@ git clone https://github.com/gabesystems/Pterodactyl-Themes.git
 
 3. Now copy the required folders by running: 
 ```
-cp -r Pterodactyl-Themes/v0.7.13\ Themes/obsidian-dark/public/
+cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/public .
 ```
-and
 ```
-cp -r Pterodactyl-Themes/v0.7.13\ Themes/obsidian-dark/resources/
+cp -r Pterodactyl-Themes/v0.7.13/obsidian-dark/resources .
 ```
 
-THERE ARE SO MANY MORE THEMES INCOMMMING! STAY TUNED!
+4. Just to be safe clear the views.
+```
+php artisan view:clear
+```
+
+# THERE ARE SO MANY MORE THEMES INCOMMMING! STAY TUNED!
