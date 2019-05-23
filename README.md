@@ -1,4 +1,4 @@
-# Codex's Pterodactyl Themes
+# Lunar's Pterodactyl Themes
 These themes have been built by me for you to use in your projects. Feel free to use them.
 
 ## How do I install these themes?
