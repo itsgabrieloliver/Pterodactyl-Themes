@@ -24,7 +24,7 @@ else
 	echo "Downloading your theme..."
 	echo "-------------------------"
 	sleep 2
-	mkdir -p tempfolder && cd tempfolder && git clone https://github.com/gabesystems/Pterodactyl-Themes.git
+	mkdir -p tempfolder && cd tempfolder && git clone https://github.com/lunr-neptr/Pterodactyl-Themes.git
 	echo "DONE!"
 	sleep 4
 	
