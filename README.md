@@ -1,5 +1,5 @@
-**THIS PROJECT IS OUTDATED: **
-** I've stopped development and installation will NOT work on current builds of Pterodactyl **
+# THIS PROJECT IS OUTDATED:
+## I've stopped development and installation will NOT work on current builds of Pterodactyl
 
 # Lunar's Pterodactyl Themes
 These themes have been built by me for you to use in your projects. Feel free to use them.
