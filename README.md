@@ -1,7 +1,5 @@
 ## NOTE: This project is archived. Support & development will no longer take place. With my final commit's i've ensured that the themes will remain installable for v0.7.13. Do NOT use themes for newer versions as it may cause issues. This project uses an outdated way of installing pterodactyl themes, use at your own risk. 
 
-----------------------------------------------------------------------------------------------
-
 # Lunar's Pterodactyl Themes
 These themes have been built by me for you to use in your projects. Feel free to use them.
 
